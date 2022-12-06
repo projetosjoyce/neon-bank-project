@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+    font-size: 1.6rem;
+    font-family: 'Inter', sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+    @include responsive(1300px) {
+        font-size: 58%;
+    }
+    @include responsive(991px) {
+        font-size: 62.5%;
+    }
+}
+
+html,
+body {
+    overflow-x: hidden;
+}
+
+button {
+    background-color: transparent;
+    cursor: pointer;
+}

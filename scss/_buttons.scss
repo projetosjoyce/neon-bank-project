@@ -1,0 +1,49 @@
+.btn-primary,
+.btn-secondary {
+    font-family: 'Poppins', sans-serif;
+    display: inline-block;
+    padding: 0 2.7rem;
+    border-radius: 122px;
+    font-size: 1.6rem;
+    line-height: 4.8rem;
+    font-weight: 600;
+}
+
+.btn-primary {
+    background-color: $brand-yellow;
+    border-radius: 122px;  
+    color: #855B35;
+    cursor: pointer;
+
+    transition: all .3s;
+
+    &:hover {
+        background-color: #FFDC5C;
+    }
+}
+
+.btn-secondary {
+    border: 1px solid $brand-light-blue;
+    color: $brand-light-blue;
+    cursor: pointer;
+
+    transition: all .4s;
+
+    &:hover {
+        background-color: $brand-light-blue;
+        color: #ffffff;
+    }
+    
+    &.white {
+        border: 1px solid white;
+        color: white;
+
+        &:hover {
+            background-color: white;
+            color: $brand-light-blue;
+        }
+
+    }
+}
+
+
